@@ -13,8 +13,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Travel Blog",
-  description: "Travel Blog Website",
+  title: "Travel Direct",
+  description: "Your ultimate travel companion for destinations worldwide",
+  icons: {
+    icon: "/logo.png",
+  },
 };
 
 export default function RootLayout({
